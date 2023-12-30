@@ -1,0 +1,117 @@
+ body {
+   background: #352f5b;
+ }
+
+ .container {
+   max-width: 800px;
+ }
+
+ input[type="text"],
+ input[type="text"]:focus {
+   color: #fff;
+   border: none;
+   background: rgba(0, 0, 0, 0.2);
+   max-width: 800px;
+ }
+
+ .todos li {
+   background: #423a6f;
+ }
+
+
+
+
+
+ .delete {
+   font-size: x-large;
+ }
+
+ .delete:hover {
+   cursor: pointer;
+   color: red;
+ }
+
+ #statusOptions {
+   width: 150px;
+ }
+
+ .currentStatus {
+   font-size: x-large;
+   font-weight: bolder;
+   min-width: 150px;
+ }
+
+ .todoName {
+   font-size: larger;
+   font-weight: bolder;
+ }
+
+
+ /* new */
+
+ #btnAll {
+   /* 
+   position: fixed;
+   height: 49px;
+   font-weight: 600;
+   border-radius: 8px;
+   left: 5%;
+   bottom: 8%;
+   padding-top: 9px;
+   width: 180px;
+   font-size: larger;
+   background-color: #e7e0e0;
+   color: #423a6f;
+   border: 1px solid rgb(60, 8, 102); */
+
+
+
+   position: fixed;
+   height: 49px;
+   font-weight: 500;
+   border-radius: 8px;
+   left: 5%;
+   bottom: 8%;
+   width: 180px;
+   font-size: larger;
+   background-color: #423a6f;
+   color: white;
+   border: 1px solid white;
+
+ }
+
+
+ .noTodosText {
+   height: 70px;
+   text-align: center;
+   border-radius: 35px;
+   margin-top: 15%;
+   width: 70%;
+   margin-left: 15%;
+   font-size: x-large;
+ }
+
+ .heart {
+   font-size: x-large;
+ }
+
+ .heart:hover {
+   cursor: pointer;
+   /* color: red; */
+
+ }
+
+ #favbtn {
+
+   position: fixed;
+   height: 49px;
+   font-weight: 620;
+   border-radius: 8px;
+   right: 5%;
+   bottom: 8%;
+   width: 180px;
+   font-size: larger;
+   background-color: #423a6f;
+   color: white;
+   border: 1px solid white;
+ }
